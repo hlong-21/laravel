@@ -1,0 +1,128 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto);html,
+body,
+#app {
+  position: relative;
+  margin: 0;
+  padding: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 100%;
+  background-color: #EFEFEF;
+  font-family: "Roboto";
+  overflow: hidden;
+}
+
+html *,
+body *,
+#app * {
+  box-sizing: border-box;
+}
+
+html table th,
+body table th,
+#app table th {
+  font-weight: bold;
+  color: #000000;
+}
+
+.mr-10 {
+  margin-right: 10px;
+}
+
+.el-select {
+  width: 100%;
+}
+
+.el-dialog__header {
+  border-bottom: 1px solid #EFEFEF;
+}
+
+.el-dialog__footer {
+  border-top: 1px solid #EFEFEF;
+}
+
+#input-group .el-autocomplete {
+  width: 100%;
+}
+
+#login-page {
+  background-image: url("/images/login.jpg");
+  background-size: cover;
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  min-height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  overflow: auto;
+}
+
+#login-page h1 {
+  margin: 0;
+  color: #ffffff;
+  text-align: center;
+  font-size: 50px;
+  font-weight: 500;
+  letter-spacing: 2px;
+  padding: 50px 0;
+}
+
+#login-page .login-form {
+  background: rgba(0, 0, 0, 0.4117647059);
+  max-width: 500px;
+  margin: 0 auto;
+  margin-bottom: 50px;
+  padding: 3em;
+  border-radius: 10px;
+  box-sizing: border-box;
+}
+
+#login-page .login-form h2 {
+  margin: 0;
+  color: #fc3955;
+  font-size: 25px;
+  font-weight: 400;
+  text-align: center;
+  letter-spacing: 1px;
+  padding-bottom: 20px;
+}
+
+#login-page .login-form .el-form-item {
+  margin-bottom: 10px;
+}
+
+#login-page .login-form a {
+  color: #eee;
+  font-size: 14px;
+  text-decoration: none;
+  line-height: 40px;
+}
+
+#login-page .login-form a:hover {
+  color: #f56c6c;
+}
+
+#login-page .login-form label {
+  color: #eee;
+}
+
+#login-page .login-form button {
+  width: 100%;
+  text-transform: uppercase;
+  margin-top: 40px;
+}
+
+#login-page .el-button--danger.is-plain {
+  color: #fff;
+  background-color: #f56c6c;
+  border-color: #f56c6c;
+}
+
+.el-form-item.is-required:not(.is-no-asterisk) > .el-form-item__label:before {
+  content: unset !important;
+}
+

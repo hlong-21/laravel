@@ -1,0 +1,57 @@
+
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+// Variables
+@import '_variables';
+
+html, body, #app {
+	position: relative;
+	margin: 0;
+	padding: 0;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	height: 100%;
+	background-color: $backgroundColor;
+	font-family: 'Roboto';
+	overflow: hidden; 
+
+	* {
+		box-sizing: border-box;
+	}
+
+	table {
+		th {
+			font-weight: bold;
+			color: #000000;
+		}
+	}
+
+}
+
+.mr-10 {
+	margin-right: 10px;
+}
+
+.el-select {
+	width: 100%;
+}
+
+.el-dialog__header{
+	border-bottom: 1px solid #EFEFEF;
+}
+
+.el-dialog__footer{
+	border-top: 1px solid #EFEFEF;
+}
+
+// input group
+#input-group {
+	.el-autocomplete {
+		width: 100%;
+	}
+}
+
+@import 'login';
